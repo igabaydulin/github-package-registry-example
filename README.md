@@ -78,7 +78,7 @@ where
 ## Project Configuration to publish packages
 ### Maven Project
 Besides providing the necessary Maven plugins (maven-deploy-plugin as an example) or using the built-in plugins versions
-you need to configure where you will publish package.
+you need to configure where you will publish the package.
 Add these lines in your `pom.xml` file:
 ```xml
 <distributionManagement>
