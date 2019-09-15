@@ -115,10 +115,10 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
 ## Prerequisites
 ### Public Beta Access
 As was mentioned before make sure you have an access to public beta 🙂 (you can use [this link](https://github.com/features/package-registry) to sign up). 
-
+<br/><br/>
 ### Create GitHub Personal Access Token
 You need to create a personal access token with the `read:packages` and `write:packages` scopes to publish and download packages. [This article](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) explains how to create a personal access token.
-
+<br/><br/>
 ### Configuring Apache Maven to Use Generated Token
 As described in [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry) article
 you need to provide Maven generated token (configuring Maven to use GitHub Registry as Maven repository along the way) by editing `~/.m2/settings.xml` (if it does not exists create a new one).
@@ -183,11 +183,14 @@ Add these lines in your `pom.xml` file:
   </repository>
 </distributionManagement>
 ```
-
+<br/><br/>
 #### Package Publishing
 ```bash
 mvn deploy
 ```
+<br/><br/>
+#### Details
+You can take a look at [maven](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven) project for more details
 
 ### Gradle Project
 By default Gradle does not use `~/.m2/settings.xml`. To fix this we can use one of the Gradle plugins. I recommend to use
@@ -223,13 +226,14 @@ publishing {
     }
 }
 ```
-
+<br/><br/>
 #### Package Publishing
 ```bash
 ./gradlew publish
 ```
-
-You can take a look at [maven](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven) project for more details
+<br/><br/>
+#### Details
+You can take a look at [gradle-groovy](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy) project for more details
 
 ### Gradle Project with Kotlin DSL
 The configuration is pretty the same as a previous one.
@@ -262,15 +266,14 @@ publishing {
     }
 }
 ```
-
-You can take a look at [gradle-groovy](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy) project for more details
-
+<br/><br/>
 #### Package Publishing
 You can use the same command described in the previous section (obviously! 🤠):
 ```bash
 ./gradlew publish
 ```
-
+<br/><br/>
+#### Details
 And as always you can take a look at [gradle-kotlin](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin) project for more details
 
 ## Few Words about Dependency Configuration
