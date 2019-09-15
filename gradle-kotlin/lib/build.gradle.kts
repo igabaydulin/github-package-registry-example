@@ -21,7 +21,7 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("lib") {
-            artifactId = "ping"
+            artifactId = "kotlin-ping"
             from(components["java"])
         }
     }
