@@ -25,7 +25,7 @@ As was mentioned before make sure you have an access to public beta 🙂 (use ca
 ### Create GitHub Personal Access Token
 You need to create a personal access token with the `read:packages` and `write:packages` scopes to publish and download packages. [This article](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) explains how to create a personal access token.
 
-### Configuring Apache Maven to use generated token
+### Configuring Apache Maven to Use Generated Token
 As described in [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry) article
 you need to provide Maven generated token (configuring Maven to use GitHub Registry as Maven repository along the way) by editing `~/.m2/settings.xml` (if it does not exists create a new one).
 
