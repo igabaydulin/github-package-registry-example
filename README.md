@@ -14,9 +14,9 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
 * [Configuring Gradle project using Kotlin DSL](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin)
 
 Some useful links:
-[1] [About GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry)
-[2] [Managing packages with GitHub Package Registry](https://help.github.com/en/categories/managing-packages-with-github-package-registry)
-[3] [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry)
+* [1] [About GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry)
+* [2] [Managing packages with GitHub Package Registry](https://help.github.com/en/categories/managing-packages-with-github-package-registry)
+* [3] [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry)
 
 ## Prerequisites
 ### Public Beta Access
