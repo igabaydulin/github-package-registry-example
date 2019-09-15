@@ -1,6 +1,5 @@
 plugins {
     id "java-library"
-    id "org.jetbrains.kotlin.jvm" version "1.3.41"
     id "maven-publish"
     id "net.linguica.maven-settings" version "0.5"
 }
