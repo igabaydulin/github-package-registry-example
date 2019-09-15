@@ -107,7 +107,7 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
                       └── AppTest.kt
   ```
 
-## Useful links:
+## Useful Links:
 * [1] [About GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry)
 * [2] [Managing packages with GitHub Package Registry](https://help.github.com/en/categories/managing-packages-with-github-package-registry)
 * [3] [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry)
