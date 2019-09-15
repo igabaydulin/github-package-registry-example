@@ -27,7 +27,7 @@ You need to create a personal access token with the `read:packages` and `write:p
 
 ### Configuring Apache Maven to use generated token
 As described in [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry) article
-you need to provide Maven generated token (configurating Maven to use GitHub Registry as Maven repository along the way) by editing `~/.m2/settings.xml` (if it does not exists create a new one).
+you need to provide Maven generated token (configuring Maven to use GitHub Registry as Maven repository along the way) by editing `~/.m2/settings.xml` (if it does not exists create a new one).
 
 **Notice:** It doesn't matter if you're using Gradle instead, create or modify `~/.m2/settings.xml` as well.
 
