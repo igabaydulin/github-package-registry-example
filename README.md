@@ -31,7 +31,7 @@ you need to provide Maven generated token (configuring Maven to use GitHub Regis
 
 **Notice:** It doesn't matter if you're using Gradle instead, create or modify `~/.m2/settings.xml` as well.
 
-`~/.m2/settings.xml` should look like this (example taken from the article):
+`~/.m2/settings.xml` should look like this (example is taken from the article):
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
