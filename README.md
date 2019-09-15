@@ -12,100 +12,100 @@ _P.S. I don't know if there are requirements for public beta access to be able t
 ## Repository Structure
 There are a few examples illustrating how to integrate GitHub Package Registry into your project:
 * [Configuring Maven project](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven)
-```
-maven
-├── pom.xml
-├── lib
-│   ├── pom.xml
-│   └── src
-│       ├── main
-│       │   └── java
-│       │       └── com.github.igabaydulin.sample
-│       │           └── Ping.java
-│       └── test
-│           └── java
-│               └── com.github.igabaydulin.sample
-│                   └── PingTest.java
-└── sample
-    ├── pom.xml
-    └── src
-        ├── main
-        │   └── java
-        │       └── com.github.igabaydulin.sample
-        │           └── App.java
-        └── test
-            └── java
-                └── com.github.igabaydulin.sample
-                    └── AppTest.java
-```
+  ```
+  maven
+  ├── pom.xml
+  ├── lib
+  │   ├── pom.xml
+  │   └── src
+  │       ├── main
+  │       │   └── java
+  │       │       └── com.github.igabaydulin.sample
+  │       │           └── Ping.java
+  │       └── test
+  │           └── java
+  │               └── com.github.igabaydulin.sample
+  │                   └── PingTest.java
+  └── sample
+      ├── pom.xml
+      └── src
+          ├── main
+          │   └── java
+          │       └── com.github.igabaydulin.sample
+          │           └── App.java
+          └── test
+              └── java
+                  └── com.github.igabaydulin.sample
+                      └── AppTest.java
+  ```
 * [Configuring Gradle project](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy)
-```
-gradle-groovy
-├── build.gradle
-├── settings.gradle
-├── gradle
-│   └── wrapper
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── gradlew
-├── gradlew.bat
-├── lib
-│   ├── build.gradle
-│   └── src
-│       ├── main
-│       │   └── java
-│       │       └── com.github.igabaydulin.ping
-│       │           └── Ping.java
-│       └── test
-│           └── java
-│               └── com.github.igabaydulin.ping
-│                   └── PingTest.java
-└── sample
-    ├── build.gradle
-    └── src
-        ├── main
-        │   └── java
-        │       └── com.github.igabaydulin.sample
-        │           └── App.java
-        └── test
-            └── java
-                └── com.github.igabaydulin.sample
-                    └── AppTest.java
-```
+  ```
+  gradle-groovy
+  ├── build.gradle
+  ├── settings.gradle
+  ├── gradle
+  │   └── wrapper
+  │       ├── gradle-wrapper.jar
+  │       └── gradle-wrapper.properties
+  ├── gradlew
+  ├── gradlew.bat
+  ├── lib
+  │   ├── build.gradle
+  │   └── src
+  │       ├── main
+  │       │   └── java
+  │       │       └── com.github.igabaydulin.ping
+  │       │           └── Ping.java
+  │       └── test
+  │           └── java
+  │               └── com.github.igabaydulin.ping
+  │                   └── PingTest.java
+  └── sample
+      ├── build.gradle
+      └── src
+          ├── main
+          │   └── java
+          │       └── com.github.igabaydulin.sample
+          │           └── App.java
+          └── test
+              └── java
+                  └── com.github.igabaydulin.sample
+                      └── AppTest.java
+  ```
 * [Configuring Gradle project using Kotlin DSL](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin)
-```
-gradle-kotlin
-├── build.gradle.kts
-├── settings.gradle.kts
-├── gradle
-│   └── wrapper
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── gradlew
-├── gradlew.bat
-├── lib
-│   ├── build.gradle.kts
-│   └── src
-│       ├── main
-│       │   └── kotlin
-│       │       └── com.github.igabaydulin.ping
-│       │           └── Ping.kt
-│       └── test
-│           └── kotlin
-│               └── com.github.igabaydulin.ping
-│                   └── PingTest.kt
-└── sample
-    ├── build.gradle.kts
-    └── src
-        ├── main
-        │   └── kotlin
-        │       └── com.github.igabaydulin.sample
-        │           └── App.kt
-        └── test
-            └── kotlin
-                └── com.github.igabaydulin.sample
-                    └── AppTest.kt
-```
+  ```
+  gradle-kotlin
+  ├── build.gradle.kts
+  ├── settings.gradle.kts
+  ├── gradle
+  │   └── wrapper
+  │       ├── gradle-wrapper.jar
+  │       └── gradle-wrapper.properties
+  ├── gradlew
+  ├── gradlew.bat
+  ├── lib
+  │   ├── build.gradle.kts
+  │   └── src
+  │       ├── main
+  │       │   └── kotlin
+  │       │       └── com.github.igabaydulin.ping
+  │       │           └── Ping.kt
+  │       └── test
+  │           └── kotlin
+  │               └── com.github.igabaydulin.ping
+  │                   └── PingTest.kt
+  └── sample
+      ├── build.gradle.kts
+      └── src
+          ├── main
+          │   └── kotlin
+          │       └── com.github.igabaydulin.sample
+          │           └── App.kt
+          └── test
+              └── kotlin
+                  └── com.github.igabaydulin.sample
+                      └── AppTest.kt
+  ```
 
 ## Useful links:
 * [1] [About GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry)
