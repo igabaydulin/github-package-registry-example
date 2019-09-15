@@ -20,11 +20,11 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
   │   └── src
   │       ├── main
   │       │   └── java
-  │       │       └── com.github.igabaydulin.sample
+  │       │       └── com.github.igabaydulin.ping
   │       │           └── Ping.java
   │       └── test
   │           └── java
-  │               └── com.github.igabaydulin.sample
+  │               └── com.github.igabaydulin.ping
   │                   └── PingTest.java
   └── sample
       ├── pom.xml
