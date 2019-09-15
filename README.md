@@ -90,7 +90,7 @@ Add these lines in your `pom.xml` file:
 </distributionManagement>
 ```
 
-To publish the package use the next command:
+#### Package Publishing
 ```bash
 mvn deploy
 ```
@@ -130,7 +130,7 @@ publishing {
 }
 ```
 
-To publish the package use the next command:
+#### Package Publishing
 ```bash
 ./gradlew publish
 ```
@@ -171,7 +171,8 @@ publishing {
 
 You can take a look at [gradle-groovy](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy) project for more details
 
-To publish the package use the same command (obviously! 🤠):
+#### Package Publishing
+You can use the same command described in the previous section (obviously! 🤠):
 ```bash
 ./gradlew publish
 ```
