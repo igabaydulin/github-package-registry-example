@@ -183,12 +183,14 @@ Add these lines in your `pom.xml` file:
   </repository>
 </distributionManagement>
 ```
-<br/><br/>
+<br/>
+
 #### Package Publishing
 ```bash
 mvn deploy
 ```
-<br/><br/>
+<br/>
+
 #### Details
 You can take a look at [maven](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven) project for more details
 
@@ -226,12 +228,14 @@ publishing {
     }
 }
 ```
-<br/><br/>
+<br/>
+
 #### Package Publishing
 ```bash
 ./gradlew publish
 ```
-<br/><br/>
+<br/>
+
 #### Details
 You can take a look at [gradle-groovy](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy) project for more details
 
@@ -266,13 +270,15 @@ publishing {
     }
 }
 ```
-<br/><br/>
+<br/>
+
 #### Package Publishing
 You can use the same command described in the previous section (obviously! 🤠):
 ```bash
 ./gradlew publish
 ```
-<br/><br/>
+<br/>
+
 #### Details
 And as always you can take a look at [gradle-kotlin](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin) project for more details
 
