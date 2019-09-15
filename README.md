@@ -9,8 +9,34 @@ You will be notified by email when you've gained access to public beta.
 
 _P.S. I don't know if there are requirements for public beta access to be able to download packages. Let me know it there are no requirements 🙂_
 
+## Table of contents
+* [GitHub Package Registry Public Beta](#github-package-registry-public-beta)
+* [Repository Structure](#repository-structure)
+  * [Configuring Maven project](#repository-structure-configuring-maven-project)
+  * [Configuring Gradle project](#repository-structure-configuring-gradle-project)
+  * [Configuring Gradle project using Kotlin DSL](#repository-structure-configuring-gradle-project-using-kotlin-dsl)
+* [Useful Links](#useful-links)
+* [Prerequisites](#prerequisites)
+  * [Public Beta Access](#public-beta-access)
+  * [Create GitHub Personal Access Token](#create-github-personal-access-token)
+  * [Configuring Apache Maven to Use Generated Token](#configuring-apache-maven-to-use-generated-token)
+* [Project Configuration to Publish Packages](#project-configuration-to-publish-packages)
+  * [Maven Project](#maven-project-1)
+    * [Package Publishing](#package-publishing-1)
+    * [Details](#details-1)
+  * [Gradle Project](#gradle-project-1)
+    * [Package Publishing](#package-publishing-2)
+    * [Details](#details-2)
+  * [Gradle Project with Kotlin DSL](#gradle-project-with-kotlin-dsl-1)
+    * [Package Publishing](#package-publishing-3)
+    * [Details](#details-3)
+* [Few Words about Dependency Configuration](#few-words-about-dependency-configuration)
+  * [Maven Project](#maven-project-2)
+  * [Gradle Project](#gradle-project-2)
+  * [Gradle Project with Kotlin DSL](#gradle-project-with-kotlin-dsl-2)
 ## Repository Structure
 There are a few examples illustrating how to integrate GitHub Package Registry into your project:
+<a name="repository-structure-configuring-maven-project"></a>
 * [Configuring Maven project](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven)
   ```
   maven
@@ -38,6 +64,7 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
                   └── com.github.igabaydulin.sample
                       └── AppTest.java
   ```
+<a name="repository-structure-configuring-gradle-project"></a>
 * [Configuring Gradle project](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy)
   ```
   gradle-groovy
@@ -72,6 +99,7 @@ There are a few examples illustrating how to integrate GitHub Package Registry i
                   └── com.github.igabaydulin.sample
                       └── AppTest.java
   ```
+<a name="repository-structure-configuring-gradle-project-using-kotlin-dsl"></a>
 * [Configuring Gradle project using Kotlin DSL](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin)
   ```
   gradle-kotlin
