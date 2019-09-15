@@ -277,7 +277,7 @@ Add the next dependency:
 <dependency>
     <groupId>com.github.igabaydulin</groupId>
     <artifactId>maven-example-ping</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 And... that's it! 😃
@@ -286,7 +286,7 @@ And... that's it! 😃
 Add the next dependency:
 ```groovy
 dependencies {
-    implementation 'com.github.igabaydulin:groovy-example-ping:1.0.1'
+    implementation 'com.github.igabaydulin:groovy-example-ping:1.1.0'
 }
 ```
 
@@ -336,6 +336,6 @@ repositories {
 Add dependency:
 ```kotlin
 dependencies {
-    implementation("com.github.igabaydulin:kotlin-example-ping:1.0.0")
+    implementation("com.github.igabaydulin:kotlin-example-ping:1.1.0")
 }
 ```
