@@ -169,8 +169,8 @@ where
 * `USERNAME`: your GitHub username
 * `TOKEN`: personal access token generated on the previous step
 
-## Project Configuration to publish packages
-### Maven Project
+## Project Configuration to Publish Packages
+## Maven Project
 Besides providing the necessary Maven plugins (maven-deploy-plugin as an example) or using the built-in plugins versions
 you need to configure where you will publish the package.
 Add these lines in your `pom.xml` file:
@@ -183,14 +183,14 @@ Add these lines in your `pom.xml` file:
   </repository>
 </distributionManagement>
 ```
-#### Package Publishing
+### Package Publishing
 ```bash
 mvn deploy
 ```
-#### Details
+### Details
 You can take a look at [maven](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven) project for more details
 
-### Gradle Project
+## Gradle Project
 By default Gradle does not use `~/.m2/settings.xml`. To fix this we can use one of the Gradle plugins. I recommend to use
 [net.linguica.maven-settings](https://plugins.gradle.org/plugin/net.linguica.maven-settings) plugin:
 ```groovy
@@ -224,14 +224,14 @@ publishing {
     }
 }
 ```
-#### Package Publishing
+### Package Publishing
 ```bash
 ./gradlew publish
 ```
-#### Details
+### Details
 You can take a look at [gradle-groovy](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy) project for more details
 
-### Gradle Project with Kotlin DSL
+## Gradle Project with Kotlin DSL
 The configuration is pretty the same as a previous one.
 
 First, specify the necessery plugins:
@@ -262,16 +262,16 @@ publishing {
     }
 }
 ```
-#### Package Publishing
+### Package Publishing
 You can use the same command described in the previous section (obviously! 🤠):
 ```bash
 ./gradlew publish
 ```
-#### Details
+### Details
 And as always you can take a look at [gradle-kotlin](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin) project for more details
 
 ## Few Words about Dependency Configuration
-### Maven Project
+## Maven Project
 Add the next dependency:
 ```xml
 <dependency>
@@ -282,7 +282,7 @@ Add the next dependency:
 ```
 And... that's it! 😃
 
-### Gradle Project
+## Gradle Project
 Add the next dependency:
 ```groovy
 dependencies {
@@ -310,7 +310,7 @@ _Note: I don't even know why this is required (maybe some lack of code in maven-
 
 And... that's it! 😫
 
-### Gradle Project with Kotlin DSL
+## Gradle Project with Kotlin DSL
 Pretty the same.
 
 Add plugins:
@@ -339,4 +339,3 @@ dependencies {
     implementation("com.github.igabaydulin:kotlin-example-ping:1.0.0")
 }
 ```
-
