@@ -2,18 +2,112 @@
 
 _GitHub Package Registry integration examples for Java projects_
 
+## GitHub Package Registry Public Beta
 **Notice**: GitHub Package Registry is not yet released and to be able to publish package into GitHub Package Registry you must
 have access to the public beta. To request to join the limited public beta, see the [GitHub Package Registry page](https://github.com/features/package-registry).
 You will be notified by email when you've gained access to public beta.
 
 _P.S. I don't know if there are requirements for public beta access to be able to download packages. Let me know it there are no requirements 🙂_
 
+## Repository Structure
 There are a few examples illustrating how to integrate GitHub Package Registry into your project:
 * [Configuring Maven project](https://github.com/igabaydulin/github-package-registry-example/tree/master/maven)
+```
+maven
+├── pom.xml
+├── lib
+│   ├── pom.xml
+│   └── src
+│       ├── main
+│       │   └── java
+│       │       └── com.github.igabaydulin.sample
+│       │           └── Ping.java
+│       └── test
+│           └── java
+│               └── com.github.igabaydulin.sample
+│                   └── PingTest.java
+└── sample
+    ├── pom.xml
+    └── src
+        ├── main
+        │   └── java
+        │       └── com.github.igabaydulin.sample
+        │           └── App.java
+        └── test
+            └── java
+                └── com.github.igabaydulin.sample
+                    └── AppTest.java
+```
 * [Configuring Gradle project](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-groovy)
+```
+gradle-groovy
+├── build.gradle
+├── settings.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── lib
+│   ├── build.gradle
+│   └── src
+│       ├── main
+│       │   └── java
+│       │       └── com.github.igabaydulin.ping
+│       │           └── Ping.java
+│       └── test
+│           └── java
+│               └── com.github.igabaydulin.ping
+│                   └── PingTest.java
+└── sample
+    ├── build.gradle
+    └── src
+        ├── main
+        │   └── java
+        │       └── com.github.igabaydulin.sample
+        │           └── App.java
+        └── test
+            └── java
+                └── com.github.igabaydulin.sample
+                    └── AppTest.java
+```
 * [Configuring Gradle project using Kotlin DSL](https://github.com/igabaydulin/github-package-registry-example/tree/master/gradle-kotlin)
+```
+gradle-kotlin
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+├── lib
+│   ├── build.gradle.kts
+│   └── src
+│       ├── main
+│       │   └── kotlin
+│       │       └── com.github.igabaydulin.ping
+│       │           └── Ping.kt
+│       └── test
+│           └── kotlin
+│               └── com.github.igabaydulin.ping
+│                   └── PingTest.kt
+└── sample
+    ├── build.gradle.kts
+    └── src
+        ├── main
+        │   └── kotlin
+        │       └── com.github.igabaydulin.sample
+        │           └── App.kt
+        └── test
+            └── kotlin
+                └── com.github.igabaydulin.sample
+                    └── AppTest.kt
+```
 
-Some useful links:
+## Useful links:
 * [1] [About GitHub Package Registry](https://help.github.com/en/articles/about-github-package-registry)
 * [2] [Managing packages with GitHub Package Registry](https://help.github.com/en/categories/managing-packages-with-github-package-registry)
 * [3] [Configuring Apache Maven for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-apache-maven-for-use-with-github-package-registry)
