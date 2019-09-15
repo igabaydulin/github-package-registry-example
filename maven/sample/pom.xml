@@ -23,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>com.github.igabaydulin</groupId>
-            <artifactId>maven-ping</artifactId>
+            <artifactId>maven-example-ping</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

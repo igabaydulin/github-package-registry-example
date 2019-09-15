@@ -24,7 +24,7 @@ publishing {
     publishing {
         publications {
             lib(MavenPublication) {
-                artifactId = "groovy-ping"
+                artifactId = "groovy-example-ping"
                 from components.java
             }
         }
