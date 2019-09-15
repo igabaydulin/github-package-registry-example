@@ -96,7 +96,7 @@ mvn deploy
 ```
 
 ### Gradle Project
-By default Gradle does not use `~/.m2/settings.xml`. To fix this we can use one of the Gradle plugins. I reccomend to use
+By default Gradle does not use `~/.m2/settings.xml`. To fix this we can use one of the Gradle plugins. I recommend to use
 [net.linguica.maven-settings](https://plugins.gradle.org/plugin/net.linguica.maven-settings) plugin:
 ```groovy
 plugins {
