@@ -1,4 +1,4 @@
-package com.github.igabaydulin.sample;
+package com.github.igabaydulin.ping;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
