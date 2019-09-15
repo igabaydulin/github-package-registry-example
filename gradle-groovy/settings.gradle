@@ -1,0 +1,2 @@
+rootProject.name = 'gradle-groovy'
+include 'lib', 'sample'
